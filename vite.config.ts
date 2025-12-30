@@ -1,0 +1,14 @@
+import { defineConfig } from "vite";
+import { svelte } from "@sveltejs/vite-plugin-svelte";
+
+// https://vite.dev/config/
+export default defineConfig({
+	base: "/UnnamedPrepTool/",
+	server: {
+		port: 8080,
+		host: "127.0.0.1",
+		open: true,
+		strictPort: false,
+	},
+	plugins: [svelte()],
+});

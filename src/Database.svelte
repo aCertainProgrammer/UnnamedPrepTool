@@ -1,13 +1,16 @@
 <script lang="ts">
+	import ChampionData from "./ChampionData.svelte";
 	import type { Champion, ChampionLists } from "./champions.svelte";
 	import { champions } from "./champions.svelte";
 
 	let currentRoleFilter: keyof ChampionLists = $state(
 		"all",
 	) as keyof ChampionLists;
+
+	let currentChampion: Champion = $state("aatrox") as Champion;
 </script>
 
-{#snippet RoleFilerButton(filter: keyof ChampionLists)}
+{#snippet RoleFilterButton(filter: keyof ChampionLists)}
 	<button
 		class={currentRoleFilter == filter ? "selected" : ""}
 		onclick={() => {
@@ -18,29 +21,36 @@
 			}
 		}}
 		><img
-			src={`./public/img/role_icons/${filter}_icon.webp`}
+			src={`./img/role_icons/${filter}_icon.webp`}
 			alt={`${filter} icon`}
 		/></button
 	>
 {/snippet}
 
 {#snippet ChampionIcon(champion: Champion)}
-	<img
-		class="champion-icon"
-		src={`./public/img/champion_icons/${champion[0].toUpperCase() + champion.slice(1)}.webp`}
-		alt={`${champion} icon`}
-	/>
+	<button
+		class={currentChampion == champion ? "selected" : ""}
+		onclick={() => {
+			currentChampion = champion;
+		}}
+	>
+		<img
+			class="champion-icon"
+			src={`./img/champion_icons/${champion[0].toUpperCase() + champion.slice(1)}.webp`}
+			alt={`${champion} icon`}
+		/>
+	</button>
 {/snippet}
 
 <div class="wrapper">
 	<div id="champions">
-		<div id="util">
-			<div id="role-filter-buttons">
-				{@render RoleFilerButton("top")}
-				{@render RoleFilerButton("jungle")}
-				{@render RoleFilerButton("mid")}
-				{@render RoleFilerButton("adc")}
-				{@render RoleFilerButton("support")}
+		<div class="util">
+			<div class="role-filter-buttons">
+				{@render RoleFilterButton("top")}
+				{@render RoleFilterButton("jungle")}
+				{@render RoleFilterButton("mid")}
+				{@render RoleFilterButton("adc")}
+				{@render RoleFilterButton("support")}
 			</div>
 			<input type="text" placeholder="Search..." />
 		</div>
@@ -51,7 +61,9 @@
 			{/each}
 		</div>
 	</div>
-	<div id="champion-tierlists-container">ChampionTierlists</div>
+	<div id="champion-tierlists-container">
+		<ChampionData champion={currentChampion} />
+	</div>
 </div>
 
 <style>
@@ -74,7 +86,7 @@
 		gap: 10px;
 	}
 
-	#util {
+	.util {
 		width: 400px;
 		height: 32px;
 		min-height: 32px;
@@ -87,7 +99,7 @@
 		overflow: hidden;
 	}
 
-	#role-filter-buttons > button {
+	.role-filter-buttons > button {
 		width: 32px;
 		height: 32px;
 
@@ -96,7 +108,7 @@
 		margin: 0;
 	}
 
-	#role-filter-buttons > button > img {
+	.role-filter-buttons > button > img {
 		width: 32px;
 		height: 32px;
 	}
@@ -109,17 +121,33 @@
 		display: flex;
 		flex-flow: row wrap;
 
-		gap: 1px;
+		gap: 2px;
 
 		overflow: auto;
 	}
 
-	#champions-container > img {
+	#champions-container > button {
 		width: 80px;
 		height: 80px;
+
+		padding: 0;
+		margin: 0;
+
+		border: none;
+		border-radius: 0;
+	}
+
+	#champions-container > button > img {
+		width: 78px;
+		height: 78px;
 	}
 
 	.selected {
-		border: 1px solid gold;
+		border: 1px solid gold !important;
+	}
+
+	#champion-tierlists-container {
+		width: 50%;
+		height: 100%;
 	}
 </style>

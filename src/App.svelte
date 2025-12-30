@@ -1,26 +1,23 @@
 <script lang="ts">
 	import Database from "./Database.svelte";
 
-	type Screen = "settings" | "pools" | "database";
+	type Screen = "settings" | "pools" | "database" | "draft";
 	let currentScreen: Screen = $state("database") as Screen;
 </script>
 
+{#snippet ScreenSwitchButton(screen: Screen)}
+	<button
+		onclick={() => {
+			currentScreen = screen;
+		}}>{screen[0].toUpperCase() + screen.slice(1)}</button
+	>
+{/snippet}
+
 <div id="top-buttons">
-	<button
-		onclick={() => {
-			currentScreen = "settings";
-		}}>Settings</button
-	>
-	<button
-		onclick={() => {
-			currentScreen = "pools";
-		}}>Pools</button
-	>
-	<button
-		onclick={() => {
-			currentScreen = "database";
-		}}>Database</button
-	>
+	{@render ScreenSwitchButton("settings")}
+	{@render ScreenSwitchButton("pools")}
+	{@render ScreenSwitchButton("database")}
+	{@render ScreenSwitchButton("draft")}
 </div>
 <main>
 	{#if currentScreen == "settings"}
@@ -29,6 +26,8 @@
 		<div>Pools</div>
 	{:else if currentScreen == "database"}
 		<Database />
+	{:else if currentScreen == "draft"}
+		<div>Draft</div>
 	{/if}
 </main>
 

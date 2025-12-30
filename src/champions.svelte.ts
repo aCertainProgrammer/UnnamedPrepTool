@@ -447,10 +447,10 @@ export type TeamData = {
 };
 
 export type PlayerData = {
-	champion_tierlist: ComfortTierlist;
+	champion_tierlist: Tierlist;
 };
 
-export type ComfortTierlist = {
+export type Tierlist = {
 	tiers: Array<Tier>;
 };
 

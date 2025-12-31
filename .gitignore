@@ -24,3 +24,4 @@ dist-ssr
 *.sw?
 
 public/img/champion
+src/debug_data.json

@@ -1,6 +1,5 @@
 import { SvelteMap } from "svelte/reactivity";
 import { champions, type Champion, type Tierlist } from "./champions.svelte";
-import debug_data from "./debug_data.json";
 
 export type RoleTierlists = {
 	top: Tierlist;
@@ -313,11 +312,12 @@ for (const champion of champions.all) {
 	});
 }
 
-const debug = false;
-if (debug) {
-	debug_data.forEach((entry) => {
-		const champion = entry[0] as Champion;
-		const data = entry[1] as ChampionData;
+export type ImportData = Array<[Champion, ChampionData]>;
+
+export function importChampionsData(data: ImportData) {
+	data.forEach((entry) => {
+		const champion = entry[0];
+		const data = entry[1];
 
 		champions_data.set(champion, data);
 	});

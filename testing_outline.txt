@@ -1,0 +1,8 @@
+Let's limit the pools to the following champions:
+
+Toplane: Renekton, Camille, Jax, Gnar
+Jungle: Wukong, Sejuani, Jarvan, XinZhao 
+Mid: Orianna, Syndra, Ahri, Akali
+ADC: Jinx, Xayah, MissFortune, Ashe
+Support: Alistar, Rakan, Leona, Nautilus
+

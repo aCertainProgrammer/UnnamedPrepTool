@@ -7,7 +7,7 @@
 		"all",
 	) as keyof ChampionLists;
 
-	let currentChampion: Champion = $state("aatrox") as Champion;
+	let currentChampion: Champion = $state(champions["all"][0]) as Champion;
 </script>
 
 {#snippet RoleFilterButton(filter: keyof ChampionLists)}

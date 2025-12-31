@@ -1,0 +1,5463 @@
+[
+	[
+		"ahri",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": ["camille"],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": ["sejuani"]
+					},
+					"mid": {
+						"impossible": ["orianna"],
+						"hard": ["syndra"],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": ["nautilus"],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": ["Renekton"],
+						"some": ["gnar", "jax"]
+					},
+					"jungle": {
+						"perfect": [],
+						"some": ["jarvan", "wukong", "xinzhao"]
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": ["jinx"],
+						"some": ["ashe"]
+					},
+					"support": {
+						"perfect": [],
+						"some": ["nautilus"]
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"akali",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": ["wukong"],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": ["syndra"]
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": ["alistar", "nautilus"],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": ["gnar"],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": ["sejuani", "jarvan"]
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": ["ashe"]
+					},
+					"support": {
+						"perfect": ["rakan"],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"alistar",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": ["ashe", "jinx"],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": ["orianna"],
+						"some": []
+					},
+					"adc": {
+						"perfect": ["jinx"],
+						"some": ["ashe", "missfortune"]
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"ashe",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": ["gnar"],
+						"hard": ["jax", "camille"],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": ["jarvan", "xinzhao"],
+						"hard": ["sejuani", "wukong"],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": ["akali"],
+						"hard": ["orianna"],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": ["gnar", "renekton"]
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": ["leona", "nautilus"],
+						"some": ["alistar"]
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"camille",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": ["jax", "renekton"],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": ["sejuani", "wukong"],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": ["ahri"],
+						"outscales": ["akali"]
+					},
+					"adc": {
+						"impossible": [],
+						"hard": ["jinx"],
+						"outscales": []
+					},
+					"support": {
+						"impossible": ["alistar"],
+						"hard": ["nautilus"],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": ["sejuani"],
+						"some": ["jarvan", "xinzhao", "wukong"]
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": ["jinx"],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": ["rakan"]
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"gnar",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": ["camille"],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": ["wukong"]
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": ["nautilus", "leona"],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": ["jarvan"],
+						"some": ["wukong", "sejuani"]
+					},
+					"mid": {
+						"perfect": ["orianna", "akali"],
+						"some": []
+					},
+					"adc": {
+						"perfect": ["missfortune"],
+						"some": []
+					},
+					"support": {
+						"perfect": ["rakan"],
+						"some": ["alistar"]
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"jarvan",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": ["camille", "jax"],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": ["wukong"],
+						"outscales": ["sejuani"]
+					},
+					"mid": {
+						"impossible": ["ahri", "akali"],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": ["alistar"],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": ["gnar"],
+						"some": ["camille"]
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": ["orianna", "syndra"],
+						"some": ["akali", "ahri"]
+					},
+					"adc": {
+						"perfect": ["missfortune", "jinx"],
+						"some": []
+					},
+					"support": {
+						"perfect": ["leona", "rakan"],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"jax",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": ["sejuani"],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": ["ahri", "akali"],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": ["jinx"],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": ["alistar"],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": ["sejuani"],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": ["ahri"]
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": ["rakan"],
+						"some": ["nautilus", "leona"]
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"jinx",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": ["gnar"],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": ["jarvan"],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": ["akali", "syndra"],
+						"hard": ["ahri", "orianna"],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": ["missfortune"],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": ["nautilus", "leona", "rakan"],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": ["camille", "renekton", "gnar"],
+						"some": []
+					},
+					"jungle": {
+						"perfect": ["sejuani", "wukong"],
+						"some": ["xinzhao"]
+					},
+					"mid": {
+						"perfect": ["syndra", "ahri"],
+						"some": ["orianna"]
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": ["alistar"],
+						"some": ["nautilus"]
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"kaisa",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"leona",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"missfortune",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"nautilus",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"orianna",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"rakan",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"renekton",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"sejuani",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"syndra",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"wukong",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"xayah",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	],
+	[
+		"xinzhao",
+		{
+			"top": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"jungle": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"mid": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"adc": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			},
+			"support": {
+				"counters": {
+					"top": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"jungle": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"mid": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"adc": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					},
+					"support": {
+						"impossible": [],
+						"hard": [],
+						"outscales": []
+					}
+				},
+				"synergies": {
+					"top": {
+						"perfect": [],
+						"some": []
+					},
+					"jungle": {
+						"perfect": [],
+						"some": []
+					},
+					"mid": {
+						"perfect": [],
+						"some": []
+					},
+					"adc": {
+						"perfect": [],
+						"some": []
+					},
+					"support": {
+						"perfect": [],
+						"some": []
+					}
+				}
+			}
+		}
+	]
+]
+

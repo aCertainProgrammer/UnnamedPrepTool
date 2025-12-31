@@ -163,8 +163,6 @@
 	</div>
 	<div class="role-data-container">
 		{#if role_data != null}
-			<div class="properties-container"></div>
-			<hr />
 			{#if role_data.counters != null}
 				<div>Counters</div>
 				{#each roles as role}

@@ -142,10 +142,6 @@
 		height: 78px;
 	}
 
-	.selected {
-		border: 1px solid gold !important;
-	}
-
 	#champion-tierlists-container {
 		width: 50%;
 		height: 100%;

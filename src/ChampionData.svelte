@@ -1,12 +1,14 @@
 <script lang="ts">
-	import { Blindability, champions_data } from "./champion_data.svelte";
+	import { champions_data } from "./champion_data.svelte";
 	import type {
 		ChampionData,
 		ChampionRoleData,
+		CounterRoleTierlists,
 		RoleTierlists,
+		SynergyRoleTierlists,
 	} from "./champion_data.svelte";
-	import type { Champion } from "./champions.svelte";
-	import Tierlist from "./Tierlist.svelte";
+	import type { Champion, Tierlist } from "./champions.svelte";
+	import TierlistView from "./TierlistView.svelte";
 	import { capitalize } from "./util";
 
 	const { champion }: { champion: Champion } = $props();
@@ -38,6 +40,102 @@
 		"adc",
 		"support",
 	];
+
+	function createCounterTierlist(
+		s: Champion[] = [],
+		a: Champion[] = [],
+		b: Champion[] = [],
+	): Tierlist {
+		return {
+			tiers: [
+				{ name: "Impossible", color: "tomato", champions: s },
+				{ name: "Hard", color: "orange", champions: a },
+				{
+					name: "Even but outscales",
+					color: "yellow",
+					champions: b,
+				},
+			],
+		};
+	}
+
+	function createSynergyTierlist(
+		s: Champion[] = [],
+		a: Champion[] = [],
+	): Tierlist {
+		return {
+			tiers: [
+				{ name: "Perfect synergy", color: "limegreen", champions: s },
+				{ name: "Some synergy", color: "yellow", champions: a },
+			],
+		};
+	}
+
+	const counterTierlists: RoleTierlists = $derived.by(() => {
+		let tierlists: RoleTierlists = {
+			top: {
+				tiers: [],
+			},
+			jungle: {
+				tiers: [],
+			},
+			mid: {
+				tiers: [],
+			},
+			adc: {
+				tiers: [],
+			},
+			support: {
+				tiers: [],
+			},
+		};
+		const keys = Object.keys(role_data.counters) as Array<
+			keyof CounterRoleTierlists
+		>;
+
+		keys.forEach((key) => {
+			const counter_tierlist = role_data.counters[key];
+			tierlists[key] = createCounterTierlist(
+				counter_tierlist.impossible,
+				counter_tierlist.hard,
+				counter_tierlist.outscales,
+			);
+		});
+
+		return tierlists;
+	});
+	const synergyTierlists: RoleTierlists = $derived.by(() => {
+		let tierlists: RoleTierlists = {
+			top: {
+				tiers: [],
+			},
+			jungle: {
+				tiers: [],
+			},
+			mid: {
+				tiers: [],
+			},
+			adc: {
+				tiers: [],
+			},
+			support: {
+				tiers: [],
+			},
+		};
+		const keys = Object.keys(role_data.counters) as Array<
+			keyof SynergyRoleTierlists
+		>;
+
+		keys.forEach((key) => {
+			const synergy_tierlist = role_data.synergies[key];
+			tierlists[key] = createSynergyTierlist(
+				synergy_tierlist.perfect,
+				synergy_tierlist.some,
+			);
+		});
+
+		return tierlists;
+	});
 </script>
 
 {#snippet RoleFilterButton(filter: keyof ChampionData)}
@@ -65,53 +163,14 @@
 	</div>
 	<div class="role-data-container">
 		{#if role_data != null}
-			<div class="properties-container">
-				<div class="blindability-container">
-					{#if role_data.blindability != null}
-						<label for="champion-blindability-selection"
-							>Blindability</label
-						>
-						<select
-							id="champion-blindability-selection"
-							value={role_data.blindability}
-						>
-							<option value={Blindability.HIGH_BLINDABILITY}
-								>Very blindable</option
-							>
-							<option value={Blindability.MEDIUM_BLINDABILITY}
-								>Somewhat blindable</option
-							>
-							<option value={Blindability.LOW_BLINDABILITY}
-								>Not blindable</option
-							>
-						</select>
-					{:else}<div>Blindability for {champion} is null</div>
-					{/if}
-				</div>
-				{#if role_data.viable != null}
-					<div>
-						<label for="champion-viability-checkbox"
-							>Viable {currentRoleFilter}</label
-						>
-						<input
-							id="champion-viability-checkbox"
-							type="checkbox"
-							checked={role_data.viable}
-						/>
-					</div>
-				{:else}<div>
-						{champion}
-						{currentRoleFilter} viability is null
-					</div>
-				{/if}
-			</div>
+			<div class="properties-container"></div>
 			<hr />
 			{#if role_data.counters != null}
 				<div>Counters</div>
 				{#each roles as role}
 					<div class="tierlist-container">
-						<Tierlist
-							tierlist={role_data.counters[role]}
+						<TierlistView
+							tierlist={counterTierlists[role]}
 							name={`${capitalize(champion)} ${currentRoleFilter} - ${role} counters`}
 						/>
 					</div>
@@ -125,8 +184,8 @@
 				{#each roles as role}
 					{#if role != currentRoleFilter}
 						<div class="tierlist-container">
-							<Tierlist
-								tierlist={role_data.synergies[role]}
+							<TierlistView
+								tierlist={synergyTierlists[role]}
 								name={`${capitalize(champion)} ${currentRoleFilter} - ${role} synergies`}
 							/>
 						</div>
@@ -201,10 +260,6 @@
 	.tierlist-container {
 		width: 100%;
 		max-height: 500px;
-	}
-
-	.selected {
-		border: 1px solid gold !important;
 	}
 
 	.properties-container {

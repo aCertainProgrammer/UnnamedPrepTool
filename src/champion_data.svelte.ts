@@ -1,11 +1,6 @@
 import { SvelteMap } from "svelte/reactivity";
-import type { Champion, Tierlist } from "./champions.svelte";
-
-export enum Blindability {
-	HIGH_BLINDABILITY = 0,
-	MEDIUM_BLINDABILITY = 1,
-	LOW_BLINDABILITY = 2,
-}
+import { champions, type Champion, type Tierlist } from "./champions.svelte";
+import debug_data from "./debug_data.json";
 
 export type RoleTierlists = {
 	top: Tierlist;
@@ -15,11 +10,36 @@ export type RoleTierlists = {
 	support: Tierlist;
 };
 
+export type CounterTierlist = {
+	impossible: Champion[];
+	hard: Champion[];
+	outscales: Champion[];
+};
+
+export type SynergyTierlist = {
+	perfect: Champion[];
+	some: Champion[];
+};
+
+export type SynergyRoleTierlists = {
+	top: SynergyTierlist;
+	jungle: SynergyTierlist;
+	mid: SynergyTierlist;
+	adc: SynergyTierlist;
+	support: SynergyTierlist;
+};
+
+export type CounterRoleTierlists = {
+	top: CounterTierlist;
+	jungle: CounterTierlist;
+	mid: CounterTierlist;
+	adc: CounterTierlist;
+	support: CounterTierlist;
+};
+
 export type ChampionRoleData = {
-	counters: RoleTierlists;
-	synergies: RoleTierlists;
-	blindability: Blindability;
-	viable: Boolean;
+	counters: CounterRoleTierlists;
+	synergies: SynergyRoleTierlists;
 };
 
 export type ChampionData = {
@@ -30,116 +50,275 @@ export type ChampionData = {
 	support: ChampionRoleData;
 };
 
-function createTierlist(
-	s: string[] = [],
-	a: string[] = [],
-	b: string[] = [],
-	c: string[] = [],
-): Tierlist {
-	return {
-		tiers: [
-			{ name: "S", color: "deepskyblue", champions: s },
-			{ name: "A", color: "limegreen", champions: a },
-			{ name: "B", color: "yellow", champions: b },
-			{ name: "C", color: "orange", champions: c },
-		],
-	};
-}
+export const champions_data: SvelteMap<Champion, ChampionData> =
+	new SvelteMap();
 
-export const champions_data: SvelteMap<Champion, ChampionData> = new SvelteMap([
-	[
-		"aatrox",
-		{
-			top: {
-				counters: {
-					top: createTierlist(["irelia", "yone"], ["fiora", "jax"]),
-					jungle: createTierlist(["taliyah", "rengar"]),
-					mid: createTierlist(["taliyah", "malzahar"]),
-					adc: createTierlist(["samira"]),
-					support: createTierlist(["braum"]),
+for (const champion of champions.all) {
+	champions_data.set(champion, {
+		top: {
+			counters: {
+				top: {
+					impossible: [],
+					hard: [],
+					outscales: [],
 				},
-				synergies: {
-					top: createTierlist(),
-					jungle: createTierlist(["jarvan"]),
-					mid: createTierlist(["ryze"]),
-					adc: createTierlist(),
-					support: createTierlist(["seraphine"]),
+				jungle: {
+					impossible: [],
+					hard: [],
+					outscales: [],
 				},
-				blindability: Blindability.HIGH_BLINDABILITY,
-				viable: true,
+				mid: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				adc: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				support: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
 			},
-			jungle: {
-				counters: {
-					top: createTierlist(),
-					jungle: createTierlist(),
-					mid: createTierlist(),
-					adc: createTierlist(),
-					support: createTierlist(),
+			synergies: {
+				top: {
+					perfect: [],
+					some: [],
 				},
-				synergies: {
-					top: createTierlist(),
-					jungle: createTierlist(),
-					mid: createTierlist(),
-					adc: createTierlist(),
-					support: createTierlist(),
+				jungle: {
+					perfect: [],
+					some: [],
 				},
-				blindability: Blindability.HIGH_BLINDABILITY,
-				viable: true,
-			},
-			mid: {
-				counters: {
-					top: createTierlist(),
-					jungle: createTierlist(),
-					mid: createTierlist(),
-					adc: createTierlist(),
-					support: createTierlist(),
+				mid: {
+					perfect: [],
+					some: [],
 				},
-				synergies: {
-					top: createTierlist(),
-					jungle: createTierlist(),
-					mid: createTierlist(),
-					adc: createTierlist(),
-					support: createTierlist(),
+				adc: {
+					perfect: [],
+					some: [],
 				},
-				blindability: Blindability.HIGH_BLINDABILITY,
-				viable: false,
-			},
-			adc: {
-				counters: {
-					top: createTierlist(),
-					jungle: createTierlist(),
-					mid: createTierlist(),
-					adc: createTierlist(),
-					support: createTierlist(),
+				support: {
+					perfect: [],
+					some: [],
 				},
-				synergies: {
-					top: createTierlist(),
-					jungle: createTierlist(),
-					mid: createTierlist(),
-					adc: createTierlist(),
-					support: createTierlist(),
-				},
-				blindability: Blindability.HIGH_BLINDABILITY,
-				viable: false,
-			},
-			support: {
-				counters: {
-					top: createTierlist(),
-					jungle: createTierlist(),
-					mid: createTierlist(),
-					adc: createTierlist(),
-					support: createTierlist(),
-				},
-				synergies: {
-					top: createTierlist(),
-					jungle: createTierlist(),
-					mid: createTierlist(),
-					adc: createTierlist(),
-					support: createTierlist(),
-				},
-				blindability: Blindability.HIGH_BLINDABILITY,
-				viable: false,
 			},
 		},
-	],
-]);
+		jungle: {
+			counters: {
+				top: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				jungle: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				mid: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				adc: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				support: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+			},
+			synergies: {
+				top: {
+					perfect: [],
+					some: [],
+				},
+				jungle: {
+					perfect: [],
+					some: [],
+				},
+				mid: {
+					perfect: [],
+					some: [],
+				},
+				adc: {
+					perfect: [],
+					some: [],
+				},
+				support: {
+					perfect: [],
+					some: [],
+				},
+			},
+		},
+		mid: {
+			counters: {
+				top: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				jungle: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				mid: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				adc: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				support: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+			},
+			synergies: {
+				top: {
+					perfect: [],
+					some: [],
+				},
+				jungle: {
+					perfect: [],
+					some: [],
+				},
+				mid: {
+					perfect: [],
+					some: [],
+				},
+				adc: {
+					perfect: [],
+					some: [],
+				},
+				support: {
+					perfect: [],
+					some: [],
+				},
+			},
+		},
+		adc: {
+			counters: {
+				top: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				jungle: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				mid: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				adc: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				support: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+			},
+			synergies: {
+				top: {
+					perfect: [],
+					some: [],
+				},
+				jungle: {
+					perfect: [],
+					some: [],
+				},
+				mid: {
+					perfect: [],
+					some: [],
+				},
+				adc: {
+					perfect: [],
+					some: [],
+				},
+				support: {
+					perfect: [],
+					some: [],
+				},
+			},
+		},
+		support: {
+			counters: {
+				top: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				jungle: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				mid: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				adc: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+				support: {
+					impossible: [],
+					hard: [],
+					outscales: [],
+				},
+			},
+			synergies: {
+				top: {
+					perfect: [],
+					some: [],
+				},
+				jungle: {
+					perfect: [],
+					some: [],
+				},
+				mid: {
+					perfect: [],
+					some: [],
+				},
+				adc: {
+					perfect: [],
+					some: [],
+				},
+				support: {
+					perfect: [],
+					some: [],
+				},
+			},
+		},
+	});
+}
+
+const debug = false;
+if (debug) {
+	debug_data.forEach((entry) => {
+		const champion = entry[0] as Champion;
+		const data = entry[1] as ChampionData;
+
+		champions_data.set(champion, data);
+	});
+}

@@ -1,7 +1,8 @@
 <script lang="ts">
 	import type { Tierlist, Tier } from "./champions.svelte";
 
-	const { tierlist, name }: { tierlist: Tierlist; name: string } = $props();
+	const { tierlist, name = "" }: { tierlist: Tierlist; name?: string } =
+		$props();
 </script>
 
 {#snippet Tier(tier: Tier)}
@@ -36,8 +37,6 @@
 
 		display: flex;
 		flex-flow: column nowrap;
-
-		overflow: scroll;
 	}
 
 	.tierlist-name {
@@ -50,7 +49,7 @@
 
 	.tier-container {
 		width: 100%;
-		min-height: 80px;
+		height: fit-content;
 
 		display: flex;
 		flex-flow: row nowrap;

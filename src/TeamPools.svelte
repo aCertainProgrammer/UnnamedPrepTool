@@ -15,24 +15,19 @@
 		return {
 			tiers: [
 				{
-					name: "Comfort blind",
+					name: "High comfort",
 					color: "deepskyblue",
-					champions: pool.comfort_blinds,
+					champions: pool.high_comfort,
 				},
 				{
-					name: "Comfort counter",
+					name: "Medium comfort",
 					color: "limegreen",
-					champions: pool.comfort_counterpicks,
+					champions: pool.medium_comfort,
 				},
 				{
-					name: "Blind",
+					name: "Can play",
 					color: "yellow",
-					champions: pool.blinds,
-				},
-				{
-					name: "Counter",
-					color: "orange",
-					champions: pool.counterpicks,
+					champions: pool.low_comfort,
 				},
 			],
 		};

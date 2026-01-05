@@ -1,10 +1,9 @@
 import type { Champion } from "./champions.svelte";
 
 export type ChampionPool = {
-	comfort_blinds: Array<Champion>;
-	comfort_counterpicks: Array<Champion>;
-	blinds: Array<Champion>;
-	counterpicks: Array<Champion>;
+	high_comfort: Array<Champion>;
+	medium_comfort: Array<Champion>;
+	low_comfort: Array<Champion>;
 };
 
 export type TeamChampionPools = {
@@ -17,77 +16,56 @@ export type TeamChampionPools = {
 
 export const ally_team_champion_pools: TeamChampionPools = {
 	top: {
-		comfort_blinds: ["aatrox", "ksante", "ambessa", "renekton", "sion"],
-		comfort_counterpicks: ["darius"],
-		blinds: ["gnar", "ornn", "chogath"],
-		counterpicks: [
-			"jax",
-			"drmundo",
-			"zaahen",
-			"vladimir",
-			"garen",
-			"olaf",
-			"kled",
-			"gwen",
-			"mordekaiser",
-			"reksai",
-		],
+		high_comfort: ["gnar", "jax"],
+		medium_comfort: ["renekton"],
+		low_comfort: ["camille"],
 	},
 	jungle: {
-		comfort_blinds: ["jarvan", "vi", "lillia", "trundle"],
-		comfort_counterpicks: ["kindred", "udyr"],
-		blinds: ["xinzhao", "wukong"],
-		counterpicks: ["drmundo"],
+		high_comfort: ["jarvan", "xinzhao"],
+		medium_comfort: ["sejuani", "wukong"],
+		low_comfort: [],
 	},
 	mid: {
-		comfort_blinds: ["neeko", "viktor", "taliyah", "syndra"],
-		comfort_counterpicks: ["veigar", "lux", "aurora", "ziggs"],
-		blinds: ["mel", "hwei", "orianna", "ahri"],
-		counterpicks: ["anivia", "lissandra", "galio"],
+		high_comfort: ["orianna", "syndra"],
+		medium_comfort: [],
+		low_comfort: ["ahri", "akali"],
 	},
 	adc: {
-		comfort_blinds: ["ashe", "xayah", "jinx"],
-		comfort_counterpicks: ["kaisa", "ezreal", "kalista"],
-		blinds: ["missfortune", "jhin"],
-		counterpicks: ["caitlyn", "twitch"],
+		high_comfort: ["jinx", "ashe"],
+		medium_comfort: ["missfortune", "xayah"],
+		low_comfort: [],
 	},
 	support: {
-		comfort_blinds: ["nautilus", "rell", "alistar"],
-		comfort_counterpicks: ["pyke", "bard"],
-		blinds: ["leona", "nami"],
-		counterpicks: ["lulu", "braum"],
+		high_comfort: ["alistar", "nautilus"],
+		medium_comfort: ["rakan"],
+		low_comfort: ["leona"],
 	},
 };
 
 export const enemy_team_champion_pools: TeamChampionPools = {
 	top: {
-		comfort_blinds: ["aatrox", "gnar", "ambessa", "ornn"],
-		comfort_counterpicks: ["darius", "irelia", "camille"],
-		blinds: ["ksante", "renekton"],
-		counterpicks: ["mordekaiser", "malphite", "gwen"],
+		high_comfort: ["renekton", "camille"],
+		medium_comfort: ["jax"],
+		low_comfort: ["gnar"],
 	},
 	jungle: {
-		comfort_blinds: ["wukong", "xinzhao"],
-		comfort_counterpicks: ["olaf", "nidalee"],
-		blinds: ["jarvan", "ambessa"],
-		counterpicks: ["mordekaiser"],
+		high_comfort: ["sejuani", "xinzhao"],
+		medium_comfort: ["wukong"],
+		low_comfort: ["jarvan"],
 	},
 	mid: {
-		comfort_blinds: ["orianna", "syndra", "yone"],
-		comfort_counterpicks: ["lissandra", "vex"],
-		blinds: ["mel", "galio"],
-		counterpicks: ["zed", "jayce"],
+		high_comfort: ["ahri"],
+		medium_comfort: ["akali"],
+		low_comfort: ["orianna", "syndra"],
 	},
 	adc: {
-		comfort_blinds: ["missfortune", "jhin", "ashe"],
-		comfort_counterpicks: ["draven", "tristana", "kalista"],
-		blinds: ["jinx", "kogmaw"],
-		counterpicks: ["syndra", "nilah"],
+		high_comfort: ["xayah", "ashe"],
+		medium_comfort: ["jinx"],
+		low_comfort: ["missfortune"],
 	},
 	support: {
-		comfort_blinds: ["thresh", "leona", "alistar"],
-		comfort_counterpicks: ["braum", "renata"],
-		blinds: ["nautilus", "milio"],
-		counterpicks: ["pyke", "yuumi"],
+		high_comfort: ["leona", "rakan"],
+		medium_comfort: ["nautilus"],
+		low_comfort: ["alistar"],
 	},
 };

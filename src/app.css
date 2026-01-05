@@ -84,5 +84,5 @@ button:focus-visible {
 }
 
 .selected {
-	border: 1px solid blue !important;
+	border: 1px solid !important;
 }

@@ -4,11 +4,12 @@
 		importChampionsData,
 	} from "./champion_data.svelte";
 	import Database from "./Database.svelte";
+	import Draft from "./Draft.svelte";
 	import TeamPools from "./TeamPools.svelte";
 	import { exportData } from "./util";
 
 	type Screen = "settings" | "pools" | "database" | "draft";
-	let currentScreen: Screen = $state("database") as Screen;
+	let currentScreen: Screen = $state("draft") as Screen;
 </script>
 
 {#snippet ScreenSwitchButton(screen: Screen)}
@@ -55,7 +56,7 @@
 	{:else if currentScreen == "database"}
 		<Database />
 	{:else if currentScreen == "draft"}
-		<div>Draft</div>
+		<Draft />
 	{/if}
 </main>
 
